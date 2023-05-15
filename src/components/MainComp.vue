@@ -4,6 +4,8 @@
      import WhyusComp from './WhyusComp.vue';
      import BrandsComp from './BrandsComp.vue';
      import ProgettiComp from './ProgettiComp.vue';
+     import AwardsComp from './AwardsComp.vue';
+     import TestimonialComp from './TestimonialComp.vue';
 
      export default {
           name: "MainComp",
@@ -12,6 +14,8 @@
                WhyusComp,
                BrandsComp,
                ProgettiComp,
+               AwardsComp,
+               TestimonialComp,
           },
 
           data(){
@@ -28,6 +32,8 @@
           <WhyusComp/>
           <BrandsComp/>
           <ProgettiComp/>
+          <AwardsComp/>
+          <TestimonialComp/>
      </main>
 
 </template>
