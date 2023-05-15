@@ -4,7 +4,7 @@
      import WhyusComp from './WhyusComp.vue';
      import BrandsComp from './BrandsComp.vue';
      import ProgettiComp from './ProgettiComp.vue';
-     import AwardsComp from './AwardsComp.vue';
+     import AccountComp from './AccountComp.vue';
      import TestimonialComp from './TestimonialComp.vue';
 
      export default {
@@ -14,7 +14,7 @@
                WhyusComp,
                BrandsComp,
                ProgettiComp,
-               AwardsComp,
+               AccountComp,
                TestimonialComp,
           },
 
@@ -32,7 +32,7 @@
           <WhyusComp/>
           <BrandsComp/>
           <ProgettiComp/>
-          <AwardsComp/>
+          <AccountComp/>
           <TestimonialComp/>
      </main>
 
