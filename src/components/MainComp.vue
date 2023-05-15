@@ -6,6 +6,7 @@
      import ProgettiComp from './ProgettiComp.vue';
      import AccountComp from './AccountComp.vue';
      import TestimonialComp from './TestimonialComp.vue';
+     import AmbientiComp from './AmbientiComp.vue';
 
      export default {
           name: "MainComp",
@@ -16,6 +17,7 @@
                ProgettiComp,
                AccountComp,
                TestimonialComp,
+               AmbientiComp,
           },
 
           data(){
@@ -34,6 +36,7 @@
           <ProgettiComp/>
           <AccountComp/>
           <TestimonialComp/>
+          <AmbientiComp/>
      </main>
 
 </template>

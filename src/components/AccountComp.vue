@@ -1,6 +1,7 @@
 <script>
      export default {
-          name: "AccountComp",    
+          name: "AccountComp",
+              
      }
 </script>
 
@@ -10,7 +11,7 @@
                <div class="d-flex">
                     <div class="w-50 p-4">
                          <h1>Il miglior modo per rendere il tuo progetto unico</h1>
-                         <p class="w-75 mt-3">Qualunque sia il tuo progetto, potrai contare sulla migliore selezione di design, esperienza e know-how. Un servizio dedicato con cui curiamo tutti gli aspetti necessari per realizzare un progetto perfetto. Ovunque nel mondo.</p>
+                         <p id="testo" class="w-75 mt-3">Qualunque sia il tuo progetto, potrai contare sulla migliore selezione di design, esperienza e know-how. Un servizio dedicato con cui curiamo tutti gli aspetti necessari per realizzare un progetto perfetto. Ovunque nel mondo.</p>
                     </div>
 
                     <div class="w-50">
@@ -44,7 +45,7 @@
                               <h4 class="card-title text-center m-3">Crea il tuo account</h4>
                               <input class="form-control mb-2" type="text" placeholder="Il tuo nome" aria-label="default input example">
                               <input class="form-control mb-2" type="email" placeholder="La tua email" aria-label="default input example">
-                              <input class="form-control mb-2" type="number" placeholder="Il tuo numero di telefono" aria-label="default input example">
+                              <input class="form-control mb-2" type="text" placeholder="Il tuo numero di telefono" aria-label="default input example">
                               <a href="#" class="btn btn-dark">Crea</a>
                          </div>
                     </div>
@@ -69,6 +70,9 @@
 
           h1{
                font-size: 70px;
+          }
+          #testo{
+               font-size: 20px;
           }
           #img-unique{
                z-index: 1;
