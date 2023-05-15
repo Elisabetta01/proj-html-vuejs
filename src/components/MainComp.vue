@@ -3,6 +3,7 @@
      import JumbotronComp from './JumbotronComp.vue';
      import WhyusComp from './WhyusComp.vue';
      import BrandsComp from './BrandsComp.vue';
+     import ProgettiComp from './ProgettiComp.vue';
 
      export default {
           name: "MainComp",
@@ -10,6 +11,7 @@
                JumbotronComp,
                WhyusComp,
                BrandsComp,
+               ProgettiComp,
           },
 
           data(){
@@ -25,6 +27,7 @@
           <JumbotronComp/>
           <WhyusComp/>
           <BrandsComp/>
+          <ProgettiComp/>
      </main>
 
 </template>
