@@ -46,7 +46,8 @@
                               <input class="form-control mb-2" type="text" placeholder="Il tuo nome" aria-label="default input example">
                               <input class="form-control mb-2" type="email" placeholder="La tua email" aria-label="default input example">
                               <input class="form-control mb-2" type="text" placeholder="Il tuo numero di telefono" aria-label="default input example">
-                              <a href="#" class="btn btn-dark">Crea</a>
+                              <a href="#" class="btn btn-dark d-flex justify-content-center">Crea</a>
+                              <p class="smaller text-center mt-2">By submitting my data I agree to be contacted</p>
                          </div>
                     </div>
 
@@ -95,6 +96,9 @@
                padding: 20px;
                position: absolute;
                bottom: -50px;
+               .smaller{
+                    font-size: 12px;
+               }
           }
 
      }
