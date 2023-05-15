@@ -60,7 +60,7 @@
 <style lang="scss" scoped>
      #container-brand{
           background-color: #38c3a0;
-          padding-top: 50px;
+          padding: 70px;
           img{
                width: 200px;
                margin-bottom: 50px;

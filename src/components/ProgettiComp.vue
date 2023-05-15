@@ -60,7 +60,7 @@
 
           <!-- slider -->
           <div class=" container d-flex justify-content-end m-4">
-               <button @click="nextSlide" type="button" class="btn btn-outline-dark">Di più</button>
+               <i @click="nextSlide" class="fa-solid fa-arrow-right-long fa-2xl"></i>
           </div>
 
           <div>
@@ -96,6 +96,7 @@
                margin-top: 50px;
                font-size: 20px;
           }
+          
 
           #container-slider{
                img{
