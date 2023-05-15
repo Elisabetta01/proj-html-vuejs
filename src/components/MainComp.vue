@@ -7,7 +7,7 @@
      import AccountComp from './AccountComp.vue';
      import TestimonialComp from './TestimonialComp.vue';
      import AmbientiComp from './AmbientiComp.vue';
-     import JoinComp from './JoinComp.vue';
+     
 
      export default {
           name: "MainComp",
@@ -19,7 +19,7 @@
                AccountComp,
                TestimonialComp,
                AmbientiComp,
-               JoinComp,
+               
           },
 
           data(){
@@ -39,7 +39,7 @@
           <AccountComp/>
           <TestimonialComp/>
           <AmbientiComp/>
-          <JoinComp/>
+          
      </main>
 
 </template>
