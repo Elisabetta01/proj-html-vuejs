@@ -10,14 +10,8 @@
                <div>
                     <h1>A-INTERIOR</h1>
                     <h3>Inspired by Beauty since 1965</h3>
-                    <ul class="text-secondary">
-                         <li>Avada Interior & C. S.p.A.</li>
-                         <li>S.S. 114 Km 6, 400</li>
-                         <li>90144, Palermo — IT</li>
-                         <li>P.IVA IT02759750835</li>
-                    </ul>
 
-                    <div id="social" class="d-flex ms-3">
+                    <div id="social" class="d-flex me-3 mt-4">
                          <i class="fa-brands fa-facebook"></i>
                          <i class="fa-brands fa-twitter"></i>
                          <i class="fa-brands fa-instagram"></i>
