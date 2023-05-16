@@ -37,9 +37,9 @@
 
           methods: {
                nextSlide(){
-                     this.currentSlideI++;
-                     if(this.currentSlideI >= this.arrayProgetti.length){
-                          this.currentSlideI = 0;
+                    this.currentSlideI++;
+                    if(this.currentSlideI >= this.arrayProgetti.length){
+                         this.currentSlideI = 0;
                     }
                }
           }
@@ -71,8 +71,8 @@
                               <p>{{ arrayProgetti[currentSlideI].testo }}</p>
                          </div>
                          <div>
-                              <img :src="arrayProgetti[(currentSlideI + 1) % arrayProgetti.length].img" alt="">
-                              <p>{{ arrayProgetti[currentSlideI + 1].testo }}</p>
+                              <img :src="arrayProgetti[(currentSlideI + 2) % arrayProgetti.length].img" alt="">
+                              <p>{{ arrayProgetti[currentSlideI + 2].testo }}</p>
                          </div>
                     </div>
                     
@@ -101,6 +101,7 @@
           #container-slider{
                img{
                     width: 500px;
+                    height: 350px;
                     margin-left: 50px;
                }
                p{

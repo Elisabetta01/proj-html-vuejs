@@ -11,7 +11,7 @@
                <div class="d-flex">
                     <div class="w-50 p-4">
                          <h1>Il miglior modo per rendere il tuo progetto unico</h1>
-                         <p id="testo" class="w-75 mt-3">Qualunque sia il tuo progetto, potrai contare sulla migliore selezione di design, esperienza e know-how. Un servizio dedicato con cui curiamo tutti gli aspetti necessari per realizzare un progetto perfetto. Ovunque nel mondo.</p>
+                         <p id="testo" class="w-75 mt-3">Un servizio dedicato con cui curiamo tutti gli aspetti necessari per realizzare un progetto perfetto. Ovunque nel mondo.</p>
                     </div>
 
                     <div class="w-50">
@@ -19,17 +19,20 @@
                               <img src="/img/unique.jpg" alt="" class="shadow">
 
                               <div id="servizi">
-                                   <ul>
-                                        <li>
-                                             <h3>Condizioni di vendita esclusive</h3>
+                                   <ul class="position-relative">
+                                        <li >
+                                             <button id="vendita" type="button" class="btn btn-outline-warning"><i class="fa-solid fa-file-invoice-dollar "></i></button>
+                                             <h4>Condizioni di vendita esclusive</h4>
                                              <p>Dolor sit amet consectetur adipisicing elit.</p>  
                                         </li>
                                         <li>
-                                             <h3>Project Management</h3>
+                                             <button id="management" type="button" class="btn btn-outline-warning"><i class="fa-solid fa-chart-line "></i></button>
+                                             <h4>Project Management</h4>
                                              <p>Dolor sit amet consectetur adipisicing elit.</p>
                                         </li>
                                         <li>
-                                             <h3>Logistica e consegna</h3>
+                                             <button id="logistica" type="button" class="btn btn-outline-warning"><i class="fa-solid fa-gears"></i></button>
+                                             <h4>Logistica e consegna</h4>
                                              <p>Dolor sit amet consectetur adipisicing elit.</p>
                                         </li>
                                    </ul>
@@ -88,6 +91,26 @@
      
                     li{
                          list-style: none;
+                         margin-left: 20px;
+                         button{
+                              width: 40px;
+                         }
+                         #vendita{
+                              position: absolute;
+                              left: 0;
+                              top: 15px;
+                              
+                         }
+                         #management{
+                              position: absolute;
+                              left: 0;
+                              top: 90px;
+                         }
+                         #logistica{
+                              position: absolute;
+                              left: 0;
+                              bottom: 15px;
+                         }
                     }
                }
           }

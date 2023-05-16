@@ -33,7 +33,7 @@
 <template>
      <div id="container-testimonial" >
           <div class="container w-50 d-flex justify-content-center">
-               <img src="/img/large-testimonial.jpg" alt="" class="rounded shadow ">
+               <img src="/img/large-testimonial.jpg" alt="" class="rounded shadow testimonial">
                <div id="testo">
                     <p class="fw-bold">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod iure, corrupti iste soluta nobis cum autem, officiis qui laborum sed nihil ipsa ipsum architecto? Reprehenderit facilis expedita voluptate dolores quam."</p>
                     <p>Kate Schadler </p>
@@ -63,8 +63,9 @@
 <style lang="scss" scoped>
      #container-testimonial{
           padding: 70px;
-          img{
-               width: 300px;
+          .testimonial{
+               width: 350px;
+               height: 350px;
           }
           #testo{
                font-family: "Times New Roman", Times, serif;

@@ -38,7 +38,7 @@
 <template>
      
      <header>
-     <nav>
+     <nav class="d-flex justify-content-between">
           <img src="/img/pantone.png" alt="logo">
 
           <ul>
@@ -47,6 +47,15 @@
                     <a href="">{{ element.nome }}</a>
                </li>
           </ul>
+
+          <div>
+               <span class="me-3">
+                    <i class="fa-solid fa-phone" style="color: #eb621f;"></i>
+                    (+39)333 125 45 67
+               </span>
+     
+               <button type="button" class="btn btn-warning">Free quote</button>
+          </div>
           
 
      </nav>
@@ -82,7 +91,7 @@
                               border-bottom: 5px solid #eb621f; 
                          }
                          &.active a {
-                              color: #eb621f;
+                              color: rgb(235, 98, 31);
                          }
                          &:hover {
                               border-bottom: 5px solid #eb621f; 

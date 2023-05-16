@@ -30,13 +30,13 @@
      <div id="container-ambienti">
           <div class="container">
 
-               <div class="d-flex justify-content-between align-items-center">
+               <div class="d-flex justify-content-between">
                     <div class="w-50">
                          <h1>Ambienti</h1>
                          <p>La giusta ispirazione per ogni stanza della casa, per donare a ciascun ambiente carattere e unicità con i prodotti di design più esclusivi.</p>
                     </div>
-                    <div>
-                         <button type="button" class="btn btn-dark">Esplora</button>
+                    <div class="d-flex align-self-end">
+                         <button type="button" class="btn btn-dark ">Esplora</button>
                     </div>
                </div>
 
